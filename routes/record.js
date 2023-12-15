@@ -1,7 +1,6 @@
 import express from 'express';
 import { ObjectId } from 'mongodb'; // Import ObjectId from 'mongodb' module
 import { getDb } from '../db/conn.js';
-
 const recordRoutes = express.Router();
 
 // This section will help you get a list of all the records.
