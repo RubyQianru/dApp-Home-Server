@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const Db = 'mongodb+srv://qz2432:rzcp1207@dapp.zyo4807.mongodb.net/?retryWrites=true&w=majority&ssl=true';
+const Db = process.env.MONGODB_URI;
 
 
 const client = new MongoClient(Db, {
